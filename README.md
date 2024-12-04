@@ -27,9 +27,10 @@ The main page displays a list of products with options to sort and filter them.
 ![image](https://github.com/user-attachments/assets/22806d49-c7d3-45ee-91e3-9b91c6a44bf0)
 
 Users can:
-
 Sort products by price or name.
+
 ![Screenshot (14)](https://github.com/user-attachments/assets/f334bb65-099c-4c62-8f07-f87172c65456)
+
 Filter products by category and usage.
 Navigate to product detail pages.
 ![image](https://github.com/user-attachments/assets/f6aefd24-3365-4eb0-a128-6a57168239ff)
@@ -39,6 +40,7 @@ The product details page provides comprehensive information about a product, inc
 Price, category, and description.
 Tags and additional metadata.
 Reviews submitted by other users.
+
 ![image](https://github.com/user-attachments/assets/4d7dbd5b-063c-404e-9113-6ef79d7371b2) ![image](https://github.com/user-attachments/assets/a41d289b-04be-49b0-a25a-10e0d3f0b7d0)
 A form to submit your own reviews.
 Add Product
