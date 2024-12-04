@@ -14,6 +14,10 @@ To get started with RevueHUB, follow these steps:
    ```bash
    npm install
    ```
+   if it shows error try this one
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 3. **Run the development server**:
    ```bash
    npm run dev
