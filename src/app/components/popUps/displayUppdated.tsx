@@ -4,6 +4,14 @@ import ProductUpdateForm from "./UpdateProduct";
 interface Product {
   name: string;
   description: string;
+  price: number;
+  category: string;
+  tags: string[];
+  use: string;
+  minimumQuantity: number;
+  sellingPrice: number;
+  addedBy: string;
+  expiresAt: Date;
 }
 
 const ProductCard = ({ product }: { product: Product }) => {
@@ -26,7 +34,7 @@ const ProductCard = ({ product }: { product: Product }) => {
             <button onClick={closeModal} className="absolute top-2 right-2">
               X
             </button>
-            <ProductUpdateForm />
+            <ProductUpdateForm product={product} onClose={closeModal} />
           </div>
         </div>
       )}
