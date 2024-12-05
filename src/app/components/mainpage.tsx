@@ -122,7 +122,7 @@ const Mainpage: React.FC = () => {
   if (error) return <Alert severity="error">Error fetching products: {JSON.stringify(error)}</Alert>;
 
   return (
-    <div className='flex flex-row bg-[#EBF2F7] h-[1800px]'>
+    <div className='flex flex-row bg-[#EBF2F7] min-h-screen pt-2'>
       <div className='flex flex-col gap-3 ml-3'>
         <div className="p-4 ">
           {/* Sort By */}
@@ -196,8 +196,7 @@ const Mainpage: React.FC = () => {
                       handleDeleteProduct(product.id);
                     }}
                   />
-                  <Edit
-                    className="hover:text-blue-600 cursor-pointer"
+                  <Edit className="hover:text-blue-600 cursor-pointer"
                     onClick={(e) => e.stopPropagation()} // its routing here when the icons are clicked so fix it 
                   />
                 </div>
